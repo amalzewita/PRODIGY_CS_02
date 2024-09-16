@@ -82,10 +82,10 @@ if __name__ == "__main__":
     key = 123  # Encryption key for operations
 
     # Create an instance of MathEncryptor
-    encryptor = MathEncryptor('C:/Users/hp/Desktop/amal/photo.jpg', key)
+    encryptor = MathEncryptor('C:/photo.jpg', key)
     
     # Encrypt the photo and save it
-    encryptor.encrypt_and_save('C:/Users/hp/Desktop/amal/encrypted_photo.jpg')
+    encryptor.encrypt_and_save('C:/encrypted_photo.jpg')
     
     # Decrypt the photo and save it
-    encryptor.decrypt_and_save('C:/Users/hp/Desktop/amal/encrypted_photo.jpg', 'C:/Users/hp/Desktop/amal/decrypted_photo.jpg')
+    encryptor.decrypt_and_save('C:/encrypted_photo.jpg', 'C:/decrypted_photo.jpg')
